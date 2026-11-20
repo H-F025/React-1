@@ -49,7 +49,17 @@
   width: 60px;
   height: 60px;
   background-color: #eee;
+  flex-shrink: 0;
+  overflow: hidden;
 }
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 
 .card-info {
   display: flex;

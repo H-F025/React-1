@@ -1,10 +1,10 @@
-function EmployeesCard({ name, post, emailAddress, image }) {
+function EmployeesCard({ name, post, emailAddress, img }) {
   return (
     <div className="card">
-      {/* 左側の写真（imageが渡されない場合はグレーの丸になります） */}
-      <div className="card-image"></div>
+      <div className="card-image">
+        <img src={img} alt={`${name}の画像`} />
+      </div>
 
-      {/* 右側のテキストグループ */}
       <div className="card-info">
         <p className="card-name">{name}</p>
         <p className="card-post">{post}</p>
