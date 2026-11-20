@@ -1,7 +1,7 @@
 import "./style.css";
 import EmployeesCard from "./Employees/EmployeesCard.jsx";
 
-function profileData() {
+function App() {
   const profileCard = [
     { id: 1, name: "モンキー・D・ルフィ", post: "キャプテン", emailAddress: "luffy@mugiwara.com", img: "/images/onepiece01_luffy.png" },
     { id: 2, name: "ロロノア・ゾロ", post: "副キャプテン", emailAddress: "zoro@mugiwara.com", img: "/images/onepiece02_zoro_bandana.png" },
@@ -31,4 +31,4 @@ function profileData() {
   );
 }
 
-export default profileData;
+export default App;
